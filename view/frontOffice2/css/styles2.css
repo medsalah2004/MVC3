@@ -1,0 +1,179 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header Styling */
+.main-header {
+    background-color: #ec5555; /* Rouge Tunisien */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.header-link:hover {
+    color: #ffcccc; /* Rouge clair */
+}
+
+.header-nav {
+    display: flex;
+    gap: 15px;
+}
+
+/* Container Styling (Formulaire avec image de fond) */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 3px solid #e25858; /* Contour rouge */
+    background-image: url('traveldoc/téléchargé.jfif'); /* Image de fond */
+    background-size: cover; /* Couvre toute la surface du conteneur */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Ne répète pas l'image */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Section Styling */
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.profile-section label {
+    font-weight: bold;
+    flex: 1;
+    color: #f76666; /* Rouge Tunisien */
+}
+
+.profile-section input {
+    flex: 2;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    cursor: not-allowed;
+}
+
+.profile-section input:focus {
+    outline: none;
+    border-color: #f54141; /* Rouge Tunisien */
+}
+
+.edit-btn {
+    background-color: #f34c4c; /* Rouge Tunisien */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #ec5656; /* Rouge foncé */
+}
+
+/* Save Button */
+.save-btn {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #ee4343; /* Rouge Tunisien */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.save-btn:hover {
+    background-color: #ee4a4a; /* Rouge foncé */
+}
+
+/* Footer Styling (Optional) */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #db4646;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Style pour les images */
+.image-with-background {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.image-with-background img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.profile-section {
+    margin-bottom: 20px;
+}
+.profile-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+.profile-section input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.edit-btn, .save-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.edit-btn:hover, .save-btn:hover {
+    background-color: #0056b3;
+}
+.save-btn {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+.success {
+    color: green;
+    margin-bottom: 10px;
+}
